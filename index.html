@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premiere Global — Sourcing & Manufacturing</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ══ TOPBAR ══ -->
+    <div class="topbar">
+      <div class="topbar-inner">
+        <span class="topbar-msg">
+          <span class="topbar-dot"></span>
+          Partenaire B2B de confiance depuis 1989 — Réponse sous 24h garantie
+        </span>
+        <div class="topbar-channels">
+          <a href="https://wa.me/VOTRE_NUMERO" class="topbar-pill topbar-pill--wa">
+            <img src="https://img.icons8.com/?size=100&id=QkXeKixybttw&format=png&color=ffffff" alt="WhatsApp" class="topbar-icon"/>
+            <div class="topbar-pill-text">
+              <span class="topbar-pill-label">WhatsApp</span>
+              <span class="topbar-num">+__ ___ ___ ___</span>
+            </div>
+          </a>
+          <div class="topbar-divider"></div>
+          <a href="#" class="topbar-pill topbar-pill--wc">
+            <img src="https://img.icons8.com/?size=100&id=qXin8dFXNXBX&format=png&color=ffffff" alt="WeChat" class="topbar-icon"/>
+            <div class="topbar-pill-text">
+              <span class="topbar-pill-label">WeChat</span>
+              <span class="topbar-num">+__ ___ ___ ___</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ NAV ══ -->
+    <nav>
+      <div class="logo" onclick="showPage('home')">
+        <img src="./img/logo.png" alt="Premiere Global" class="logo-img" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="pages/catalog.html">Catalog</a></li>
+        <li><a href="pages/about.html">About U</a></li>
+        <li><a href="pages/contact.html">Join Us</a></li>
+        <li><a href="pages/startegy.html">Our Strategy</a></li>
+        <li><a href="pages/contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- ════════════ HOME ════════════ -->
+    <div id="home" class="page active">
+      <!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-bg">
+    <img src="./img/banner/banner_trophe.jpg" alt="banniere" />
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Sourcing &amp; Manufacturing</div>
+    <h1>Your Ideas.<br /><em>Produced Globally.</em></h1>
+    <p>
+      Partenaire B2B spécialisé dans le sourcing sur mesure et la
+      fabrication mondiale — cristal, verre, mode et cadeaux d'entreprise.
+    </p>
+    <div class="hero-actions">
+      <a class="btn-primary" onclick="showPage('about')">
+        Découvrir nos services
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a class="btn-secondary" onclick="showPage('contact')">Nous Contacter</a>
+    </div>
+    <div class="hero-badges">
+      <div class="hero-badge"><span class="hero-badge-num">35+</span><span class="hero-badge-label">Ans d'expérience</span></div>
+      <div class="hero-badge-sep"></div>
+      <div class="hero-badge"><span class="hero-badge-num">7+</span><span class="hero-badge-label">Pays clients</span></div>
+      <div class="hero-badge-sep"></div>
+      <div class="hero-badge"><span class="hero-badge-num">100%</span><span class="hero-badge-label">Sur mesure</span></div>
+    </div>
+  </div>
+</section>
+
+      <!-- ══ STATS BAND ══ -->
+      <div class="stats-band">
+        <div class="stats-band-inner">
+          <div class="stat-item"><span class="stat-n">1989</span><span class="stat-l">Fondation</span></div>
+          <div class="stat-sep"></div>
+          <div class="stat-item"><span class="stat-n">35+</span><span class="stat-l">Années d'expérience</span></div>
+          <div class="stat-sep"></div>
+          <div class="stat-item"><span class="stat-n">7+</span><span class="stat-l">Marchés mondiaux</span></div>
+          <div class="stat-sep"></div>
+          <div class="stat-item"><span class="stat-n">OEM</span><span class="stat-l">Sur mesure disponible</span></div>
+          <div class="stat-sep"></div>
+          <div class="stat-item"><span class="stat-n">24h</span><span class="stat-l">Délai de réponse</span></div>
+        </div>
+      </div>
+
+    <!-- ══ TROPHÉES ══ -->
+    <section class="prod-section">
+      <div class="prod-section-inner">
+        <div class="prod-section-header">
+          <span class="prod-section-tag">Notre Savoir-Faire</span>
+          <h2>Trophées</h2>
+          <div class="prod-section-divider"></div>
+        </div>
+        <div class="prod-grid">
+          <div class="prod-card">
+            <div class="prod-card-img"><img src="./img/trophees/trophees (1).webp" alt="trophee"></div>
+            <div class="prod-card-body">
+              <div class="prod-card-title">Trophée Cristal Étoile</div>
+              <div class="prod-card-meta">Gravure laser · MOQ 50 pcs</div>
+              <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            </div>
+          </div>
+          <div class="prod-card">
+            <div class="prod-card-img"><img src="./img/trophees/trophees (2).webp" alt="trophee"></div>
+            <div class="prod-card-body">
+              <div class="prod-card-title">Trophée Verre Colonne</div>
+              <div class="prod-card-meta">Base personnalisable · MOQ 50 pcs</div>
+              <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            </div>
+          </div>
+          <div class="prod-card">
+            <div class="prod-card-img"><img src="./img/trophees/trophees (3).webp" alt="trophee"></div>
+            <div class="prod-card-body">
+              <div class="prod-card-title">Plaque Cristal Rectangle</div>
+              <div class="prod-card-meta">Gravure 3D · MOQ 50 pcs</div>
+              <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            </div>
+          </div>
+          <div class="prod-card">
+            <div class="prod-card-img"><img src="./img/trophees/trophees (4).webp" alt="trophee"></div>
+            <div class="prod-card-body">
+              <div class="prod-card-title">Médaille Verre Gravée</div>
+              <div class="prod-card-meta">Tous formats · MOQ 100 pcs</div>
+              <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- ══ EMBALLAGE ══ -->
+      <section class="prod-section prod-section--alt">
+        <div class="prod-section-inner">
+          <div class="prod-section-header">
+            <span class="prod-section-tag">Packaging Sur Mesure</span>
+            <h2>Emballage &amp; Coffrets</h2>
+            <div class="prod-section-divider"></div>
+          </div>
+          <div class="prod-grid">
+            <div class="prod-card">
+              <div class="prod-card-img"><img src="./img/emballage/emballage (1).webp" alt="emballage"></div>
+              <div class="prod-card-body">
+                <div class="prod-card-title">Boîte Bois Premium</div>
+                <div class="prod-card-meta">Impression logo · MOQ 50 pcs</div>
+                <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+              </div>
+            </div>
+            <div class="prod-card">
+              <div class="prod-card-img"><img src="./img/emballage/emballage (2).webp" alt="emballage"></div>
+              <div class="prod-card-body">
+                <div class="prod-card-title">Carton Cadeau Imprimé</div>
+                <div class="prod-card-meta">Offset ou digital · MOQ 200 pcs</div>
+                <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+              </div>
+            </div>
+            <div class="prod-card">
+              <div class="prod-card-img"><img src="./img/emballage/emballage (3).webp" alt="emballage"></div>
+              <div class="prod-card-body">
+                <div class="prod-card-title">Coffret Cadeau Entreprise</div>
+                <div class="prod-card-meta">Design OEM · MOQ 30 sets</div>
+                <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+              </div>
+            </div>
+            <div class="prod-card">
+              <div class="prod-card-img"><img src="./img/emballage/emballage (4).webp" alt="emballage"></div>
+              <div class="prod-card-body">
+                <div class="prod-card-title">Emballage Plastique Custom</div>
+                <div class="prod-card-meta">Toutes formes · MOQ 500 pcs</div>
+                <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══ ACCESSOIRES ══ -->
+      <section class="prod-section">
+        <div class="prod-section-inner">
+          <div class="prod-section-header">
+            <span class="prod-section-tag">Cadeaux &amp; Promotionnel</span>
+            <h2>Accessoires d'Entreprise</h2>
+            <div class="prod-section-divider"></div>
+          </div>
+          <div class="prod-grid">
+            <div class="prod-card">
+              <div class="prod-card-img"><img src="./img/accessoires/baguette.webp" alt="accessoire"></div>
+              <div class="prod-card-body">
+                <div class="prod-card-title">Set Papeterie Entreprise</div>
+                <div class="prod-card-meta">Logo inclus · MOQ 100 sets</div>
+                <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+              </div>
+            </div>
+            <div class="prod-card">
+              <div class="prod-card-img"><img src="./img/accessoires/bonbonniere.webp" alt="accessoire"></div>
+              <div class="prod-card-body">
+                <div class="prod-card-title">Vase Verre Soufflé OEM</div>
+                <div class="prod-card-meta">Personnalisable · MOQ 100 pcs</div>
+                <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+              </div>
+            </div>
+            <div class="prod-card">
+              <div class="prod-card-img"><img src="./img/accessoires/carafe.webp" alt="accessoire"></div>
+              <div class="prod-card-body">
+                <div class="prod-card-title">Coffret Cadeau Premium</div>
+                <div class="prod-card-meta">Emballage inclus · MOQ 30 sets</div>
+                <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+              </div>
+            </div>
+            <div class="prod-card">
+              <div class="prod-card-img"><img src="./img/accessoires/flute.webp" alt="accessoire"></div>
+              <div class="prod-card-body">
+                <div class="prod-card-title">Articles Promotionnels</div>
+                <div class="prod-card-meta">Sur devis · Toutes quantités</div>
+                <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══ BIJOUX ══ -->
+      <section class="prod-section prod-section--alt">
+        <div class="prod-section-inner">
+          <div class="prod-section-header">
+            <span class="prod-section-tag">Mode &amp; Fantaisie</span>
+            <h2>Bijoux &amp; Articles de Mode</h2>
+            <div class="prod-section-divider"></div>
+          </div>
+          <div class="prod-grid">
+            <div class="prod-card">
+              <div class="prod-card-img"><img src="./img/bijoux/collier (16).webp" alt="bijou"></div>
+              <div class="prod-card-body">
+                <div class="prod-card-title">Collier Laiton Doré</div>
+                <div class="prod-card-meta">Composants ou finis · MOQ 200 pcs</div>
+                <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+              </div>
+            </div>
+            <div class="prod-card">
+              <div class="prod-card-img"><img src="./img/bijoux/accessoire (1).webp" alt="bijou"></div>
+              <div class="prod-card-body">
+                <div class="prod-card-title">Bracelet Argent Fantaisie</div>
+                <div class="prod-card-meta">Design sur mesure · MOQ 300 pcs</div>
+                <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+              </div>
+            </div>
+            <div class="prod-card">
+              <div class="prod-card-img"><img src="./img/bijoux/boucle_d_oreilles (12).webp" alt="bijou"></div>
+              <div class="prod-card-body">
+                <div class="prod-card-title">Boucles d'Oreilles Laiton</div>
+                <div class="prod-card-meta">Plaqué or/argent · MOQ 500 pcs</div>
+                <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+              </div>
+            </div>
+            <div class="prod-card">
+              <div class="prod-card-img"><img src="./img/bijoux/bracelet (1).webp" alt="bijou"></div>
+              <div class="prod-card-body">
+                <div class="prod-card-title">Accessoires Mode OEM</div>
+                <div class="prod-card-meta">Sur mesure · MOQ 200 pcs</div>
+                <a class="prod-card-cta" onclick="showPage('contact')">Faire un devis<svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- ══ CE QUE NOUS FAISONS ══ -->
+      <section class="what-we-do">
+        <div class="what-we-do-inner">
+
+          <div class="wwd-text">
+            <span class="section-tag">Notre Expertise</span>
+            <h2>Ce que nous faisons</h2>
+            <p>
+              Reconnus comme un partenaire B2B de référence dans les solutions de sourcing et fabrication,
+              nous collaborons avec vous pour développer des stratégies d'approvisionnement sur mesure,
+              adaptées aux besoins spécifiques de votre marque. Notre vaste sélection de cadeaux d'entreprise
+              et produits promotionnels est régulièrement enrichie de nouveautés, vous offrant un assortiment
+              toujours à la pointe.
+            </p>
+          </div>
+
+          <ul class="wwd-list">
+
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="13" rx="2"/>
+                <path d="M8 21h8M12 16v5"/>
+              </svg>
+              <span>Production interne</span>
+            </li>
+
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a7 7 0 0 1 7 7c0 4-4 8-7 11C9 17 2 13 2 9a7 7 0 0 1 7-7"/>
+                <circle cx="12" cy="9" r="2.5"/>
+                <path d="M18 21l2-2-2-2M22 19h-5"/>
+              </svg>
+              <span>Offre d'idées créatives et de conception de produits</span>
+            </li>
+
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2"/>
+                <path d="M16 2v4M8 2v4M3 10h18"/>
+                <path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/>
+                <path d="M14 21l1.5-1.5L17 21"/>
+              </svg>
+              <span>Planification annuelle des cadeaux et articles saisonniers</span>
+            </li>
+
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M2 12h20"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                <path d="M6 20l2-3M18 20l-2-3M5 7l2 2M19 7l-2 2"/>
+              </svg>
+              <span>Assistance à la livraison mondiale</span>
+            </li>
+
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+              <span>Approvisionnement mondial en produits</span>
+            </li>
+
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/>
+                <path d="M9 13l2 2 4-4" stroke-width="1.2"/>
+              </svg>
+              <span>Contrôle de la qualité — Politique d'échange 1 pour 1</span>
+            </li>
+
+          </ul>
+
+        </div>
+</section>
+
+      <!-- ══ FORMULAIRE CONTACT ══ -->
+    <section class="contact-form-section">
+        <div class="contact-form-inner">
+          <div class="contact-form-header">
+            <span class="section-tag">Parlons de votre projet</span>
+            <h2>Besoin de cadeaux d'entreprise ?<br/><em>Contactez-nous dès maintenant !</em></h2>
+            <div class="gold-line"></div>
+          </div>
+          <div class="contact-form-wrap">
+            <div class="contact-form-info">
+              <div class="cfi-item">
+                <div class="cfi-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div>
+                  <div class="cfi-label">WhatsApp</div>
+                  <div class="cfi-value">+__ ___ ___ ___</div>
+                </div>
+              </div>
+              <div class="cfi-item">
+                <div class="cfi-icon"><i class="fa-solid fa-comment-dots"></i></div>
+                <div>
+                  <div class="cfi-label">WeChat</div>
+                  <div class="cfi-value">ID: votre_identifiant</div>
+                </div>
+              </div>
+              <div class="cfi-item">
+                <div class="cfi-icon"><i class="fa-solid fa-clock"></i></div>
+                <div>
+                  <div class="cfi-label">Délai de réponse</div>
+                  <div class="cfi-value">Sous 24h garantie</div>
+                </div>
+              </div>
+            </div>
+            <form class="contact-form" onsubmit="handleContactForm(event)">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="cf-name">Votre nom <span class="required">*</span></label>
+                  <input type="text" id="cf-name" name="name" placeholder="Roland Guettler" required />
+                </div>
+                <div class="form-group">
+                  <label for="cf-email">Adresse courriel <span class="required">*</span></label>
+                  <input type="email" id="cf-email" name="email" placeholder="contact@exemple.com" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="cf-phone">Numéro de téléphone <span class="required">*</span></label>
+                <input type="tel" id="cf-phone" name="phone" placeholder="+33 6 00 00 00 00" required />
+              </div>
+              <div class="form-group">
+                <label for="cf-message">Votre message <span class="optional">(facultatif)</span></label>
+                <textarea id="cf-message" name="message" rows="5" placeholder="Décrivez votre projet, le type de produit souhaité, la quantité estimée..."></textarea>
+              </div>
+              <button type="submit" class="btn-form-submit">
+                Envoyer ma demande
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+              <p class="form-notice">Champs marqués <span class="required">*</span> obligatoires. Vos données ne sont pas partagées.</p>
+            </form>
+          </div>
+        </div>
+    </section>
+
+      <!-- ══ FAQ ══ -->
+      <section class="faq">
+        <div class="section-header">
+          <span class="section-tag">Questions Fréquentes</span>
+          <h2>FAQ — Sourcing B2B</h2>
+          <p>Tout ce que vous devez savoir avant de nous contacter</p>
+          <div class="gold-line"></div>
+        </div>
+        <div class="faq-grid">
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="faq-question"><h4>Quelles quantités minimum acceptez-vous ?</h4><div class="faq-toggle">+</div></div>
+            <div class="faq-answer">Nous acceptons des commandes à partir de quantités raisonnables selon le produit. Les minimums varient selon la complexité du design. Contactez-nous via WhatsApp ou WeChat pour un devis personnalisé.</div>
+          </div>
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="faq-question"><h4>Proposez-vous des services de personnalisation (OEM) ?</h4><div class="faq-toggle">+</div></div>
+            <div class="faq-answer">Oui, les commandes OEM sont les bienvenues. Notre équipe de designers peut créer des produits sur mesure à partir de vos spécifications, plans, logos ou idées brutes.</div>
+          </div>
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="faq-question"><h4>Quels sont vos délais de production habituels ?</h4><div class="faq-toggle">+</div></div>
+            <div class="faq-answer">Les délais dépendent du produit, de la complexité et de la quantité. Nous fournissons d'abord un prototype pour validation, puis lançons la production en série. Nous nous engageons à livrer dans les délais convenus.</div>
+          </div>
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="faq-question"><h4>Quelles garanties de qualité offrez-vous ?</h4><div class="faq-toggle">+</div></div>
+            <div class="faq-answer">Nous satisfaisons certains des clients les plus exigeants au monde, notamment au Japon. Chaque commande passe par un contrôle qualité rigoureux avant expédition. Qualité irréprochable, juste prix, délais respectés.</div>
+          </div>
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="faq-question"><h4>Dans quels pays livrez-vous ?</h4><div class="faq-toggle">+</div></div>
+            <div class="faq-answer">Nous livrons dans le monde entier — Japon, Royaume-Uni, France, Allemagne, États-Unis, Autriche et de nombreux autres pays. Notre logistique s'adapte à toutes les destinations.</div>
+          </div>
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="faq-question"><h4>Comment nous contacter pour un devis ?</h4><div class="faq-toggle">+</div></div>
+            <div class="faq-answer">Le moyen le plus rapide est via WhatsApp ou WeChat. Ces canaux permettent une réponse immédiate, le partage de photos et la discussion de projets en temps réel, partout dans le monde.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══ FOOTER ══ -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="./img/logo.png" alt="Premiere Global" class="footer-logo-img" />
+          </div>
+          <p>Votre partenaire B2B de confiance pour le sourcing et la fabrication de produits de qualité depuis 1989. Efficacité, rigueur, livraison mondiale.</p>
+          <div class="footer-tagline">"XXXXXXXXX,<br/>XXXXXXX"</div>
+        </div>
+        <div class="footer-col">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a onclick="showPage('home')">Accueil</a></li>
+            <li><a onclick="showPage('catalog')">Catalog</a></li>
+            <li><a onclick="showPage('about')">About Us</a></li>
+            <li><a onclick="showPage('strategy')">Our Strategy</a></li>
+            <li><a onclick="showPage('join')">Join Us</a></li>
+            <li><a onclick="showPage('contact')">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Nos Produits</h5>
+          <ul>
+            <li><a>Trophées Verre &amp; Cristal</a></li>
+            <li><a>Cadeaux d'Entreprise</a></li>
+            <li><a>Articles de Mode</a></li>
+            <li><a>Bijoux Fantaisie</a></li>
+            <li><a>Emballages Sur Demande</a></li>
+            <li><a>Services OEM / Design</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h5>Nous Contacter</h5>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon"><i class="fa-solid fa-user"></i></div>
+            <div><div class="footer-contact-label">Fondateur</div><div class="footer-contact-value">Roland F. Guettler</div></div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon"><i class="fa-solid fa-earth-americas"></i></div>
+            <div><div class="footer-contact-label">Présence</div><div class="footer-contact-value">Opérations Mondiales</div></div>
+          </div>
+          <div class="footer-channels">
+            <a href="https://wa.me/VOTRE_NUMERO" class="footer-channel-pill">
+              <img src="https://img.icons8.com/?size=100&id=QkXeKixybttw&format=png&color=25D366" alt="WhatsApp" style="width:22px;height:22px"/>
+              <div class="footer-channel-text"><div class="footer-channel-name">WhatsApp</div><div class="footer-channel-num">+__ ___ ___ ___</div></div>
+            </a>
+            <a href="#" class="footer-channel-pill">
+              <img src="https://img.icons8.com/?size=100&id=qXin8dFXNXBX&format=png&color=07C160" alt="WeChat" style="width:22px;height:22px"/>
+              <div class="footer-channel-text"><div class="footer-channel-name">WeChat</div><div class="footer-channel-num">ID: votre_identifiant</div></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Premiere Collections Ltd &nbsp;|&nbsp; Tous droits réservés</p>
+        <span class="footer-est">Est. 1989 — Hong Kong</span>
+        <div class="footer-bottom-links"><a>Confidentialité</a><a>CGU</a><a>Mentions Légales</a></div>
+      </div>
+    </footer>
+    </div><!-- /home -->
+
+  </body>
+</html>
