@@ -13,6 +13,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="js/animation.js"></script>
+
   </head>
   <body>
     <!-- ══ TOPBAR ══ -->
@@ -43,16 +45,18 @@
     </div>
 
     <!-- ══ NAV ══ -->
-    <nav>
-      <div class="logo" onclick="showPage('home')">
-        <img src="./img/logo.png" alt="Premiere Global" class="logo-img" />
-      </div>
-      <ul class="nav-links">
-        <li><a href="pages/catalog.html">Catalog</a></li>
-        <li><a href="pages/about.html">About Us</a></li>
-        <li><a href="pages/contact.html">Join Us</a></li>
-        <li><a href="pages/startegy.html">Our Strategy</a></li>
-        <li><a href="pages/contact.html">Contact Us</a></li>
+<nav> 
+  <div class="logo" onclick="showPage('home')"> <img src="./img/logo.png" alt="Premiere Global" class="logo-img" /> </div> 
+    <ul class="nav-links"> 
+        <li><a href="pages/catalog.html">Catalog</a></li> 
+        <li><a href="pages/about.html">About Us</a></li> 
+        <li><a href="pages/contact.html">Join Us</a></li> 
+        <li><a href="pages/startegy.html">Our Strategy</a></li> 
+        <li><a href="pages/contact.html">Contact Us</a>
+        </li> <!-- Sélecteur de langue --> <li class="lang-switcher">
+          <select onchange="changeLanguage(this.value)"> <option value="fr">FR</option>
+            <option value="en">EN</option> </select> 
+            </li> 
       </ul>
     </nav>
 
